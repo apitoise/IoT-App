@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: app-service
   labels:
-    run: wil-app
+    run: app-deploy
 spec:
   selector:
     app: app-deploy
