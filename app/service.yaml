@@ -4,8 +4,7 @@ metadata:
   name: app-service
 spec:
   selector:
-	app: app-deploy
-    app.kubernetes.io/name: MyApp
+    app: app-deploy
   ports:
     - protocol: TCP
       port: 8888
